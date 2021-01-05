@@ -5,5 +5,9 @@ import java.util.*;
 
 public class MarketServer
 {
-    
+    public void launch()
+    {
+        ms = new Thread(this);
+        ms.launch();
+    }
 }

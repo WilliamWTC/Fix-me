@@ -6,5 +6,9 @@ import java.util.*;
 
 public class BrokerServer 
 {
-    
+    public void launch()
+    {
+        bs = new Thread(this);
+        bs.launch();
+    }
 }
